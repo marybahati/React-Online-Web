@@ -14,7 +14,7 @@ class Contact extends React.Component {
 									<div className="field half">
 										<input type="text" name="name" id="name" placeholder="Name" />
 									</div>
-									<div class="field half">
+									<div className="field half">
 										<input type="email" name="email" id="email" placeholder="Email" />
 									</div>
 									<div className="field">
@@ -27,7 +27,7 @@ class Contact extends React.Component {
 							</form>
 						</div>
 						<footer>
-							<ul class="items">
+							<ul className="items">
 								<li>
 									<h3>Email</h3>
 									<a href="#">information@untitled.ext</a>
@@ -42,7 +42,7 @@ class Contact extends React.Component {
 								</li>
 								<li>
 									<h3>Elsewhere</h3>
-									<ul class="icons">
+									<ul className="icons">
 										<li><a href="#" className="icon brands fa-twitter"><span className="label">Twitter</span></a></li>
 										<li><a href="#" className="icon brands fa-facebook-f"><span className="label">Facebook</span></a></li>
 										<li><a href="#" className="icon brands fa-instagram"><span className="label">Instagram</span></a></li>

@@ -14,7 +14,7 @@ class App extends React.Component {
               <Blog/>
               <Gallery/>
               <Contact/>
-              <div class="copyright">&copy; Untitled. All rights reserved. Design: <a href="https://html5up.net">React</a>.</div>
+              <div className="copyright">&copy; Untitled. All rights reserved. Design: <a href="https://html5up.net">React</a>.</div>
               </div>
             </div>
         )
